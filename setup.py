@@ -13,7 +13,7 @@ with open(path.join(here, 'version'), 'r') as f:
 
 setup(
     name='youtrack',
-    version=version,
+    version='custom',
     python_requires='>3',
     packages=['youtrack', 'youtrack.sync'],
     url='https://github.com/JetBrains/youtrack-rest-python-library',
